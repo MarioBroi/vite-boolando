@@ -7,3 +7,11 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+:root {
+  --booleando-primary: rgba(255, 105, 0, 1);
+  --booleando-lighter: white;
+  --booleando-discount: rgba(255, 0, 0, 1);
+  --booleando-sustainable: rgba(0, 128, 0, 1);
+  --booleando-darker: rgba(26, 26, 26, 1);
+}

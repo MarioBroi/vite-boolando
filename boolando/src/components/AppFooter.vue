@@ -63,4 +63,34 @@ export default {
 
 </template>
 
-<style></style>
+<style>
+.site-footer {
+    background-color: var(--booleando-darker);
+}
+
+.company {
+    font-weight: 800;
+    color: var(--booleando-lighter);
+    text-align: left;
+    padding-top: 2rem;
+}
+
+.info {
+    font-size: 0.6rem;
+    padding-top: 0.6rem;
+    margin-bottom: 2rem;
+}
+
+.socials {
+    color: var(--booleando-lighter);
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 0.6rem;
+}
+
+.socials-icons {
+    padding-top: 0.6rem;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+</style>

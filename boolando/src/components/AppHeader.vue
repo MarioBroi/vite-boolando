@@ -27,7 +27,7 @@ export default {
             </div>
             <!-- /gender selection -->
 
-            <img src="/img/boolean-logo.png" alt="">
+            <img src="/img/boolean-logo.png" alt="" class="logo">
             <!-- /image logo Booleaner -->
 
             <div>
@@ -55,4 +55,17 @@ export default {
 
 </template>
 
-<style></style>
+<style>
+.site-header {
+    background-color: var(--booleando-primary);
+}
+
+.logo {
+    width: 15%;
+    padding: 1rem;
+}
+
+a {
+    padding: 0.5rem;
+}
+</style>
