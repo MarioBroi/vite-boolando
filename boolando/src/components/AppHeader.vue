@@ -27,7 +27,7 @@ export default {
             </div>
             <!-- /gender selection -->
 
-            <!-- <img src="img/boolean-logo.png" alt="" class="logo"> -->
+            <img src="/img/boolean-logo.png" alt="">
             <!-- /image logo Booleaner -->
 
             <div>

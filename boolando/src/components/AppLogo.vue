@@ -8,7 +8,7 @@ export default {
 
 <template>
 
-    <h1>logo</h1>
+    <img src="/img/boolean-logo.png" alt="">
 
 </template>
 

@@ -14,8 +14,8 @@ export default {
 
             <div class="product">
 
-                <img src="./assets/img/1.webp" alt="" class="main-image">
-                <img src="./assets/img/1b.webp" alt="" class="second-image">
+                <img src="/img/1.webp" alt="" class="main-image">
+                <img src="/img/1b.webp" alt="" class="second-image">
                 <!-- /products images -->
 
                 <div class="details">
@@ -46,8 +46,8 @@ export default {
 
             <div class="product">
 
-                <img src="./assets/img/2.webp" alt="" class="main-image">
-                <img src="./assets/img/2b.webp" alt="" class="second-image">
+                <img src="/img/2.webp" alt="" class="main-image">
+                <img src="/img/2b.webp" alt="" class="second-image">
                 <!-- /products images -->
 
                 <div class="details">
@@ -77,8 +77,8 @@ export default {
 
             <div class="product">
 
-                <img src="./assets/img/3.webp" alt="" class="main-image">
-                <img src="./assets/img/4b.webp" alt="" class="second-image">
+                <img src="/img/3.webp" alt="" class="main-image">
+                <img src="/img/4b.webp" alt="" class="second-image">
                 <!-- /products images -->
 
                 <div class="details">
@@ -108,8 +108,8 @@ export default {
 
             <div class="product">
 
-                <img src="./assets/img/4.webp" alt="" class="main-image">
-                <img src="./assets/img/4b.webp" alt="" class="second-image">
+                <img src="/img/4.webp" alt="" class="main-image">
+                <img src="/img/4b.webp" alt="" class="second-image">
                 <!-- /products images -->
 
                 <div class="details">
@@ -140,8 +140,8 @@ export default {
 
             <div class="product">
 
-                <img src="./assets/img/5.webp" alt="" class="main-image">
-                <img src="./assets/img/5b.webp" alt="" class="second-image">
+                <img src="/img/5.webp" alt="" class="main-image">
+                <img src="/img/5b.webp" alt="" class="second-image">
                 <!-- /products images -->
 
                 <div class="details">
@@ -163,8 +163,8 @@ export default {
 
             <div class="product">
 
-                <img src="./assets/img/6.webp" alt="" class="main-image">
-                <img src="./assets/img/6b.webp" alt="" class="second-image">
+                <img src="/img/6.webp" alt="" class="main-image">
+                <img src="/img/6b.webp" alt="" class="second-image">
                 <!-- /products images -->
 
                 <div class="details">
