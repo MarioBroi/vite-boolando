@@ -56,16 +56,5 @@ export default {
 </template>
 
 <style>
-.site-header {
-    background-color: var(--booleando-primary);
-}
 
-.logo {
-    width: 15%;
-    padding: 1rem;
-}
-
-a {
-    padding: 0.5rem;
-}
 </style>

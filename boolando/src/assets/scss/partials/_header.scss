@@ -1,0 +1,14 @@
+@use './variables' as *;
+
+.site-header {
+    background-color: $primary;
+
+    .logo {
+        width: 15%;
+        padding: 1rem;
+    }
+
+    & a {
+        padding: 0.5rem;
+    }
+}
