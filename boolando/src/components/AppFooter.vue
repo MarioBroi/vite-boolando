@@ -1,9 +1,7 @@
 <script>
-
 export default {
     name: 'AppFooter'
 }
-
 </script>
 
 <template>
@@ -63,6 +61,4 @@ export default {
 
 </template>
 
-<style>
-
-</style>
+<style></style>

@@ -1,203 +1,98 @@
 <script>
+import ProductCard from './ProductCard.vue';
 
 export default {
-    name: 'AppMain'
-}
+    name: 'AppMain',
+    components: {
+        ProductCard
+    },
+    data() {
+        return {
+            products: [
+                {
+                    id: 1,
+                    mainImg: "/public/img/1.webp",
+                    hoverImg: "/public/img/1b.webp",
+                    brand: "Levi's",
+                    description: "RELAXED FIT TEE UNISEX",
+                    priceOld: 29.99,
+                    priceNew: 14.99,
+                    discount: "-50%",
+                    eco: "Sostenibilitá",
+                    likeIt: false,
+                },
+                {
+                    id: 2,
+                    mainImg: "/public/img/2.webp",
+                    hoverImg: "/public/img/2b.webp",
+                    brand: "Guess",
+                    description: "ROSES TEE",
+                    priceOld: 29.99,
+                    discount: "-30%",
+                    priceNew: 20.99,
+                    likeIt: false,
 
+                },
+                {
+                    id: 3,
+                    mainImg: "/public/img/3.webp",
+                    hoverImg: "/public/img/3b.webp",
+                    brand: "Come Zucchero Filato",
+                    description: "VOGLIA DI COLORI PASTELLO",
+                    priceOld: 184.99,
+                    priceNew: 129.99,
+                    likeIt: false,
+                },
+                {
+                    id: 4,
+                    mainImg: "/public/img/4.webp",
+                    hoverImg: "/public/img/4b.webp",
+                    brand: "Levi's",
+                    description: "TEE UNISEX",
+                    priceOld: 29.99,
+                    eco: "Sostenibilità",
+                    priceNew: 14.99,
+                    discount: "-50%",
+                    likeIt: false,
+                },
+                {
+                    id: 5,
+                    mainImg: "/public/img/5.webp",
+                    hoverImg: "/public/img/5b.webp",
+                    brand: "Maya Deluxe",
+                    description: "STRIPE BODICE",
+                    priceOld: 99.99,
+                    likeIt: false,
+                },
+                {
+                    id: 6,
+                    mainImg: "/public/img/6.webp",
+                    hoverImg: "/public/img/6b.webp",
+                    brand: "Espirit",
+                    description: "MAGLIONE - BLACK",
+                    eco: "Sostenibilitá",
+                    priceNew: 29.99,
+                    likeIt: true,
+                },
+            ]
+        }
+    }
+}
 </script>
 
 <template>
 
     <main class="site-main">
-
         <section class="container-img d-flex flex-center products">
 
-            <div class="product">
+            <ProductCard :product="product" v-for="product in products" />
 
-                <img src="/img/1.webp" alt="" class="main-image">
-                <img src="/img/1b.webp" alt="" class="second-image">
-                <!-- /products images -->
 
-                <div class="details">
-
-                    <span class="brand">Levi's</span>
-                    <span><a href="#" class="link">relaxed fit tee unisex</a></span>
-                    <span class="new-price">14,99€</span>
-                    <del class="old-price">29.99€</del>
-
-                    <div class="products-badge">
-
-                        <div class="discount">-50%</div>
-                        <div class="eco">Sostenibilitá</div>
-
-                    </div>
-                    <!-- /product badge -->
-
-                    <div class="favourite">
-                        &hearts;
-                    </div>
-                    <!-- /heart -->
-
-                </div>
-                <!-- /details -->
-
-            </div>
-            <!-- /product 1 -->
-
-            <div class="product">
-
-                <img src="/img/2.webp" alt="" class="main-image">
-                <img src="/img/2b.webp" alt="" class="second-image">
-                <!-- /products images -->
-
-                <div class="details">
-
-                    <span class="brand">Guess</span>
-                    <span><a href="#" class="link">roses tee</a></span>
-                    <span class="new-price">20,99€</span>
-                    <del class="old-price">29.99€</del>
-
-                    <div class="products-badge">
-
-                        <div class="discount">-30%</div>
-
-                    </div>
-                    <!-- /product badge -->
-
-                    <div class="favourite">
-                        &hearts;
-                    </div>
-                    <!-- /heart -->
-
-                </div>
-                <!-- /details -->
-
-            </div>
-            <!-- /product 2 -->
-
-            <div class="product">
-
-                <img src="/img/3.webp" alt="" class="main-image">
-                <img src="/img/4b.webp" alt="" class="second-image">
-                <!-- /products images -->
-
-                <div class="details">
-
-                    <span class="brand">Come Zucchero Filato</span>
-                    <span><a href="#" class="link">voglia di colori pastello</a></span>
-                    <span class="new-price">129,99€</span>
-                    <del class="old-price">184.99€</del>
-
-                    <div class="products-badge">
-
-                        <div class="discount">-30%</div>
-
-                    </div>
-                    <!-- /product badge -->
-
-                    <div class="favourite">
-                        &hearts;
-                    </div>
-                    <!-- /heart -->
-
-                </div>
-                <!-- /details -->
-
-            </div>
-            <!-- /product 3 -->
-
-            <div class="product">
-
-                <img src="/img/4.webp" alt="" class="main-image">
-                <img src="/img/4b.webp" alt="" class="second-image">
-                <!-- /products images -->
-
-                <div class="details">
-
-                    <span class="brand">Levi's</span>
-                    <span><a href="#" class="link">tee unisex</a></span>
-                    <span class="new-price">14,99€</span>
-                    <del class="old-price">29.99€</del>
-
-                    <div class="products-badge">
-
-                        <div class="discount">-50%</div>
-                        <div class="eco">Sostenibilitá</div>
-
-                    </div>
-                    <!-- /product badge -->
-
-                    <div class="favourite">
-                        &hearts;
-                    </div>
-                    <!-- /heart -->
-
-                </div>
-                <!-- /details -->
-
-            </div>
-            <!-- /product 4 -->
-
-            <div class="product">
-
-                <img src="/img/5.webp" alt="" class="main-image">
-                <img src="/img/5b.webp" alt="" class="second-image">
-                <!-- /products images -->
-
-                <div class="details">
-
-                    <span class="brand">Maya Deluxe</span>
-                    <span><a href="#" class="link">stripe bodice</a></span>
-                    <span class="new-price">99,99€</span>
-
-                    <div class="favourite">
-                        &hearts;
-                    </div>
-                    <!-- /heart -->
-
-                </div>
-                <!-- /details -->
-
-            </div>
-            <!-- /product 5 -->
-
-            <div class="product">
-
-                <img src="/img/6.webp" alt="" class="main-image">
-                <img src="/img/6b.webp" alt="" class="second-image">
-                <!-- /products images -->
-
-                <div class="details">
-
-                    <span class="brand">Esprit</span>
-                    <span><a href="#" class="link">maglione - black</a></span>
-                    <span class="new-price">29,99€</span>
-
-                    <div class="products-badge">
-
-                        <div class="eco">Sostenibilitá</div>
-
-                    </div>
-                    <!-- /product badge -->
-
-                    <div class="favourite">
-                        &hearts;
-                    </div>
-                    <!-- /heart -->
-
-                </div>
-                <!-- /details -->
-
-            </div>
-            <!-- /product 6 -->
 
         </section>
-        <!-- /section container product -->
-
     </main>
     <!-- /.site-main -->
 
 </template>
 
-<style>
-</style>
+<style></style>../main.js
