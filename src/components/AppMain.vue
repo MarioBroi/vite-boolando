@@ -37,4 +37,4 @@ export default {
 
 </template>
 
-<style></style>../main.js
+<style></style>.

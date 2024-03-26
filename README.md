@@ -5,7 +5,7 @@
 - Non esagerate con i componenti: less is more.
 - L’esercizio già lo conoscete (html-css-boolando), ma la sfida è suddividerlo in componenti e provare a sfruttare SASS per rendere il nostro stile più leggibile e flessibile (di quali variabili potreste avere bisogno?). 
 
-### Bonus
+### Bonus ✔
 - Popoliamo le voci dell’header (sia le tre voci testuali che le tre icone) dinamicamente.
 
 ## Milestone 2 ✔
@@ -14,7 +14,8 @@
 - Createla in autonomia prendendo come riferimento il layout che avete costruito.
 
 ## Milestone 3 ✔
-- Continuate a lavorare nella stessa repo di ieri. Installiamo la libreria json-server e aggiungiamo al package.json lo script “serve” necessario per avviarlo: “json-server --watch db.json”.
+- Continuate a lavorare nella stessa repo di ieri. 
+- Installiamo la libreria json-server e aggiungiamo al package.json lo script “serve” necessario per avviarlo: “json-server --watch db.json”.
 - Impostiamo uno stato globale: quali dati globali gestisce la nostra app?
 - Infine, facciamo in modo che la nostra App, all’avvio, non legga più i dati dall’array statico presente nel componente, ma dall’API che ci rende disponibile json-server.
 
@@ -26,6 +27,8 @@
 
 ### Bonus
 - Proviamo a creare una modale più completa: mostriamo le immagini del prodotto sulla sinistra e le informazioni di testo sulla destra.
+
+
 
 # Instructions (EN)
 - Create a new project using Vite and Vue 3 and define the necessary components to structure the layout.
