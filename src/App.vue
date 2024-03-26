@@ -2,14 +2,28 @@
 import AppHeader from './components/AppHeader.vue'
 import AppMain from './components/AppMain.vue'
 import AppFooter from './components/AppFooter.vue'
+import ProductModal from "./components/ProductModal.vue";
 
 export default {
   name: 'App',
   components: {
     AppHeader,
     AppMain,
-    AppFooter
-  }
+    AppFooter,
+    ProductModal
+  },
+  data() {
+    return {
+      modalWindow: false,
+      modalContent: null
+    }
+  },
+  methods: {
+    showProduct(product) {
+      this.modalWindow = true;
+      this.modalContent = product;
+    }
+  },
 }
 
 </script>
@@ -17,43 +31,10 @@ export default {
 <template>
 
   <AppHeader />
-  <AppMain />
+  <AppMain :showProduct="showProduct" />
   <AppFooter />
+  <ProductModal v-if="modalWindow" :modalContent="modalContent" @close-modal-window="modalWindow = false" />
 
 </template>
 
-<style>
-.container {
-  width: 80%;
-  height: 100%;
-  text-align: center;
-  justify-content: space-between;
-  align-items: center;
-  align-content: center;
-  flex-direction: row;
-  margin: auto;
-}
-
-.d-flex {
-  display: flex;
-}
-
-
-.flex-center {
-  justify-content: center;
-  align-items: center;
-}
-
-.flex-space-btwn {
-  justify-content: space-between;
-}
-
-a {
-  color: var(--booleando-lighter);
-  text-decoration: none;
-}
-
-.padding {
-  padding: 0.25rem;
-}
-</style>
+<style></style>
