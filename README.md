@@ -14,7 +14,7 @@
 - Createla in autonomia prendendo come riferimento il layout che avete costruito.
 
 ## Milestone 3 
-- Continuate a lavorare nella stessa repo di ieri. Installiamo la libreria json-server e aggiungiamo al package.json lo script “serve” necessario per avviarlo: “json-server --watch db.json”.
+- Continuate a lavorare nella stessa repo di ieri. Installiamo la libreria json-server e aggiungiamo al package.json lo script “serve” necessario per avviarlo: “json-server --watch db.json”. ✔
 - Impostiamo uno stato globale: quali dati globali gestisce la nostra app?
 - Infine, facciamo in modo che la nostra App, all’avvio, non legga più i dati dall’array statico presente nel componente, ma dall’API che ci rende disponibile json-server.
 
