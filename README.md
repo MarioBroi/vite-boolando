@@ -19,7 +19,7 @@
 - Impostiamo uno stato globale: quali dati globali gestisce la nostra app?
 - Infine, facciamo in modo che la nostra App, all’avvio, non legga più i dati dall’array statico presente nel componente, ma dall’API che ci rende disponibile json-server.
 
-## Milestone 4
+## Milestone 4 ✔
 - Continuate a lavorare nella stessa repo di ieri.
 - Facciamo in modo che al click sul nome del prodotto nella card venga emesso un evento “showProduct” verso il componente App.
 - In App, quando riceviamo l’evento, apriamo una modale che mostra tutte le informazioni testuali del prodotto.
