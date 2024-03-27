@@ -30,8 +30,8 @@ export default {
 
             <div class="products-badge">
 
-                <div class="discount">{{ product.discount }}</div>
-                <div class="eco">{{ product.eco }}</div>
+                <div class="discount" v-if="product.discount !== null">{{ product.discount }}</div>
+                <div class="eco" v-if="product.eco === true">Sostenibilitá</div>
 
             </div>
             <!-- /product badge -->
@@ -48,3 +48,5 @@ export default {
     <!-- /.card -->
 
 </template>
+
+<style></style>

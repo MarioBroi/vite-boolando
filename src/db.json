@@ -46,6 +46,7 @@
       "hoverImg": "/public/img/5b.webp",
       "brand": "Maya Deluxe",
       "description": "STRIPE BODICE",
+      "discount": null,
       "price": "99.99",
       "eco": false
     },
@@ -55,6 +56,7 @@
       "hoverImg": "/public/img/6b.webp",
       "brand": "Espirit",
       "description": "MAGLIONE - BLACK",
+      "discount": null,
       "price": 29.99,
       "eco": true
     }
