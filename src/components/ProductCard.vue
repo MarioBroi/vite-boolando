@@ -21,7 +21,7 @@ export default {
 
             <span class="brand">{{ product.brand }}</span>
             <!-- <span><a href="#" class="link">{{ product.description }}</a></span> -->
-            <h3 @click="$emit('showProduct', product)">{{ product.description }}</h3>
+            <h3 class="link" @click="$emit('showProduct', product)">{{ product.description }}</h3>
 
             <span class="new-price" v-if="product.discount !== null">{{ (product.price - (product.price *
             Math.abs(parseInt(product.discount))) / 100).toFixed(2) }}&euro;</span>
